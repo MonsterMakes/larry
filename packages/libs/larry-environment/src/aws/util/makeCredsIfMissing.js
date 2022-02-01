@@ -10,15 +10,15 @@ const AWS_CONFIG_PATH = path.resolve(os.homedir(), '.aws', 'config');
  * @param {*} path 
  */
 const _makeCredsIfMissing = path => {
-  // touch if missing.
-  if (!fs.existsSync(path)) {
-    fs.writeFileSync(path, '');
-  }
-}
+	// touch if missing.
+	if (!fs.existsSync(path)) {
+		fs.writeFileSync(path, '');
+	}
+};
 
 const makeCredsIfMissing = () => {
-  _makeCredsIfMissing(AWS_CONFIG_PATH);
-  _makeCredsIfMissing(AWS_CREDENTIALS_PATH);
-}
+	_makeCredsIfMissing(AWS_CONFIG_PATH);
+	_makeCredsIfMissing(AWS_CREDENTIALS_PATH);
+};
 
 module.exports = makeCredsIfMissing;
