@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.6](https://github.com/@lockenj/larry/compare/@monstermakes/larry-environment@0.0.4...@monstermakes/larry-environment@0.0.6) (2022-02-01)
+
+
+### Bug Fixes
+
+* linting issues ([76a3c48](https://github.com/@lockenj/larry/commit/76a3c4896b72f906c3b4e2eaf2b058c19898eb7e))
+
+
+
+
+
 ## [0.0.5](https://github.com/@lockenj/larry/compare/@monstermakes/larry-environment@0.0.4...@monstermakes/larry-environment@0.0.5) (2022-02-01)
 
 **Note:** Version bump only for package @monstermakes/larry-environment
