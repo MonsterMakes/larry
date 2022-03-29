@@ -4,7 +4,7 @@ const should = chai.should(); // eslint-disable-line
 const expect = chai.expect; // eslint-disable-line
 
 const pathUtils = require('path');
-const Git = require('../../../src/git/Git');
+const Git = require('../../src/git/Git');
 
 const fs = require('fs-extra');
 

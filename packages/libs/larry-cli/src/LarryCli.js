@@ -39,7 +39,7 @@ function commonActions(vorpalInstance,rootVorpalInstance) {//eslint-disable-line
 				});
 			}
 			return prom.then((subCliName) => {
-				if(self._subModulesRegistry.hasOwnProperty(subCliName)){
+				if(self._subModulesRegistry.hasOwnProperty(subCliName)){ //eslint-disable-line
 					self.clear();
 					self._subModulesRegistry[subCliName].show();
 				}

@@ -52,7 +52,7 @@ class AwsConfigSingleton extends EventEmitter{
 		let credentials;
 		if(profile){
 			//check to see if this is a normal profile or an SSO profile
-			if(profile.hasOwnProperty('sso_start_url')){
+			if(profile.hasOwnProperty('sso_start_url')){//eslint-disable-line
 				const sso = new Sso(profile.sso_region,profile.sso_start_url);
 				//start the sso process
 				const roleCreds = await sso.retrieveCredentialsForAccountAndRole(profile.sso_account_id,profile.sso_role_name);

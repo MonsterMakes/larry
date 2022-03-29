@@ -39,7 +39,7 @@ class Ecs extends AwsEcs {
 		let containerDefinitions = [];
 		//Lop through the container definitions and update them
 		taskDefinition.containerDefinitions.forEach(containerDef => {
-			if(upgradeDetails.hasOwnProperty(containerDef.name)){
+			if(upgradeDetails.hasOwnProperty(containerDef.name)){//eslint-disable-line
 				let containerDefinitionUpgradeDetails = upgradeDetails[containerDef.name];
 				//allows for string (just changing the version) or object changing other settings like cpu/mem
 				if(_.isString(containerDefinitionUpgradeDetails)){

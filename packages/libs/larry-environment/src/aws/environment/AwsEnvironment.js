@@ -40,7 +40,7 @@ class AwsEnvironment extends Environment{
 			for (const [templateName, templateDeets] of Object.entries(templatesInfo)) {
 				parameterValues[templateName] = templateDeets.values;
 				//Set the environment name if its being referenced
-				if(parameterValues[templateName].hasOwnProperty('EnvironmentName')){
+				if(parameterValues[templateName].hasOwnProperty('EnvironmentName')){//eslint-disable-line
 					parameterValues[templateName].EnvironmentName = this.getEnvironmentName();
 				}
 			}
@@ -62,7 +62,7 @@ class AwsEnvironment extends Environment{
 	}
 	getCloudFormationTemplateInfo(namespacedName){
 		const templates = this.getCloudFormationTemplatesInfo();
-		if(templates.hasOwnProperty(namespacedName)){
+		if(templates.hasOwnProperty(namespacedName)){//eslint-disable-line
 			return templates[namespacedName];
 		}
 		else{
@@ -235,13 +235,13 @@ class AwsEnvironment extends Environment{
 	_getValuesObjFromCloudFormationParam(cfParam){
 		const values = {};
 		let val = undefined;
-		if(cfParam.hasOwnProperty('ResolvedValue')){
+		if(cfParam.hasOwnProperty('ResolvedValue')){//eslint-disable-line
 			val = cfParam.ResolvedValue;
 		}
-		else if(cfParam.hasOwnProperty('ParameterValue')){
+		else if(cfParam.hasOwnProperty('ParameterValue')){//eslint-disable-line
 			val = cfParam.ParameterValue;
 		}
-		else if(cfParam.hasOwnProperty('DefaultValue')){
+		else if(cfParam.hasOwnProperty('DefaultValue')){//eslint-disable-line
 			val = cfParam.DefaultValue;
 		}
 		//special cases

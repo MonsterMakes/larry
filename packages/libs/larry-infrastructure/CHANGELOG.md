@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.5](https://github.com/monstermakes/larry-infrastructure/compare/@monstermakes/larry-infrastructure@0.3.3...@monstermakes/larry-infrastructure@0.3.5) (2022-03-29)
+
+
+### Bug Fixes
+
+* **larry-bnd:** WIP  ([106d715](https://github.com/monstermakes/larry-infrastructure/commit/106d7151437e8ffbb12f762475f5475ac7dcf39a))
+
+
+
+
+
 ## [0.3.2](https://github.com/monstermakes/larry-infrastructure/compare/@monstermakes/larry-infrastructure@0.3.1...@monstermakes/larry-infrastructure@0.3.2) (2021-02-09)
 
 **Note:** Version bump only for package @monstermakes/larry-infrastructure

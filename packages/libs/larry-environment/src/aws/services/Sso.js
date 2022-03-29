@@ -272,7 +272,7 @@ class Sso extends AwsSso {
 		//retrieve all the roles for each account
 		const accountsAndRoles = await this.retrieveAllAccountsAndRoles();
 		//check if the account exists
-		if(accountsAndRoles.hasOwnProperty(accountName)){
+		if(accountsAndRoles.hasOwnProperty(accountName)){//eslint-disable-line
 			const account = accountsAndRoles[accountName];
 			//check if the role exists
 			if(_.has(account.roles,roleName)){

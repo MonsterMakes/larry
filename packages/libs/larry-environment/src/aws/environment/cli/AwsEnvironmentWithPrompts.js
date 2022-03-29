@@ -42,7 +42,7 @@ class AwsEnvironmentWithPrompts extends AwsEnvironment{
 			case 'String':
 				validate = (input)=>{
 					let result = true;
-					if(param.hasOwnProperty('AllowedPattern')){
+					if(param.hasOwnProperty('AllowedPattern')){//eslint-disable-line
 						if(!input.match(param.AllowedPattern)){
 							result = `Invalid format, must be of type ${param.AllowedPattern}.`;
 						}
@@ -100,7 +100,7 @@ class AwsEnvironmentWithPrompts extends AwsEnvironment{
 						return 'A value must be supplied';
 					}
 					else{
-						if(param.ParameterConstraints.hasOwnProperty('AllowedValues')){
+						if(param.ParameterConstraints.hasOwnProperty('AllowedValues')){//eslint-disable-line
 							result = param.ParameterConstraints.AllowedValues.includes(input);
 						}
 						return result && validate(input);
@@ -120,7 +120,7 @@ class AwsEnvironmentWithPrompts extends AwsEnvironment{
 	 */
 	_updatePromptsDefaultValues(prompts,values){
 		for(const prompt of prompts){
-			if(values.hasOwnProperty(prompt.name)){
+			if(values.hasOwnProperty(prompt.name)){//eslint-disable-line
 				prompt.default = values[prompt.name];
 			}
 		}
