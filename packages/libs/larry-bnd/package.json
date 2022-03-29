@@ -1,7 +1,7 @@
 {
 	"name": "@monstermakes/larry-bnd",
 	"description": "Build and Deploy of mono repo projects. ",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publishConfig": {},
 	"bin": {
 		"initialize-project": "./bin/initialize-project.js",
@@ -51,5 +51,5 @@
 		"mocha": "^8.3.2",
 		"nyc": "^15.1.0"
 	},
-	"gitHead": "bc47de13b69ee0e413c409e54e33aced4d0af0e1"
+	"gitHead": "37b1a6b36334e7f2dbca293589fba40a596c9ac7"
 }
