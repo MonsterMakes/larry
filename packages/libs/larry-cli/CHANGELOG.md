@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.4](https://github.com/MonsterMakes/larry-cli/compare/@monstermakes/larry-cli@0.3.2...@monstermakes/larry-cli@0.3.4) (2022-03-29)
+
+
+### Bug Fixes
+
+* **larry-bnd:** WIP  ([106d715](https://github.com/MonsterMakes/larry-cli/commit/106d7151437e8ffbb12f762475f5475ac7dcf39a))
+
+
+
+
+
 ## [0.3.3](https://github.com/MonsterMakes/larry-cli/compare/@monstermakes/larry-cli@0.3.2...@monstermakes/larry-cli@0.3.3) (2022-03-29)
 
 

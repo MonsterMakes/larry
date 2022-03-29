@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.3](https://github.com/MonsterMakes/larry-scaffolds/compare/@monstermakes/larry-scaffolds@1.8.1...@monstermakes/larry-scaffolds@1.8.3) (2022-03-29)
+
+
+### Bug Fixes
+
+* **larry-bnd:** WIP  ([106d715](https://github.com/MonsterMakes/larry-scaffolds/commit/106d7151437e8ffbb12f762475f5475ac7dcf39a))
+
+
+
+
+
 ## [1.8.2](https://github.com/MonsterMakes/larry-scaffolds/compare/@monstermakes/larry-scaffolds@1.8.1...@monstermakes/larry-scaffolds@1.8.2) (2022-03-29)
 
 

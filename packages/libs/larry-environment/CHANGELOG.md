@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.8](https://github.com/@lockenj/larry/compare/@monstermakes/larry-environment@0.0.6...@monstermakes/larry-environment@0.0.8) (2022-03-29)
+
+
+### Bug Fixes
+
+* **larry-bnd:** WIP  ([106d715](https://github.com/@lockenj/larry/commit/106d7151437e8ffbb12f762475f5475ac7dcf39a))
+
+
+
+
+
 ## [0.0.7](https://github.com/@lockenj/larry/compare/@monstermakes/larry-environment@0.0.6...@monstermakes/larry-environment@0.0.7) (2022-03-29)
 
 
