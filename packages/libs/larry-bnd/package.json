@@ -1,7 +1,7 @@
 {
 	"name": "@monstermakes/larry-bnd",
 	"description": "Build and Deploy of mono repo projects. ",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"publishConfig": {},
 	"bin": {
 		"initialize-project": "./bin/initialize-project.js",
@@ -43,7 +43,7 @@
 		"nodegit": "^0.27.0"
 	},
 	"devDependencies": {
-		"@monstermakes/larry-infrastructure": "^0.3.6",
+		"@monstermakes/larry-infrastructure": "^0.3.7",
 		"chai": "^4.3.4",
 		"chai-as-promised": "^7.1.1",
 		"chai-files": "^1.4.0",

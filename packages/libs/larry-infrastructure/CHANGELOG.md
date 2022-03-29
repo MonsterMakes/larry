@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.7](https://github.com/monstermakes/larry-infrastructure/compare/@monstermakes/larry-infrastructure@0.3.6...@monstermakes/larry-infrastructure@0.3.7) (2022-03-29)
+
+**Note:** Version bump only for package @monstermakes/larry-infrastructure
+
+
+
+
+
 ## [0.3.6](https://github.com/monstermakes/larry-infrastructure/compare/@monstermakes/larry-infrastructure@0.3.3...@monstermakes/larry-infrastructure@0.3.6) (2022-03-29)
 
 

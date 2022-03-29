@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/monstermakes/larry-logger/compare/@monstermakes/larry-logger@0.1.3...@monstermakes/larry-logger@0.1.5) (2022-03-29)
+
+**Note:** Version bump only for package @monstermakes/larry-logger
+
+
+
+
+
 ## [0.1.3](https://github.com/monstermakes/larry-logger/compare/@monstermakes/larry-logger@0.1.1...@monstermakes/larry-logger@0.1.3) (2022-03-29)
 
 

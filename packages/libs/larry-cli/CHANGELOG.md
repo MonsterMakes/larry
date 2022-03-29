@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.6](https://github.com/MonsterMakes/larry-cli/compare/@monstermakes/larry-cli@0.3.4...@monstermakes/larry-cli@0.3.6) (2022-03-29)
+
+**Note:** Version bump only for package @monstermakes/larry-cli
+
+
+
+
+
 ## [0.3.4](https://github.com/MonsterMakes/larry-cli/compare/@monstermakes/larry-cli@0.3.2...@monstermakes/larry-cli@0.3.4) (2022-03-29)
 
 
