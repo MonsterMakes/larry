@@ -48,7 +48,7 @@
 		"chai-as-promised": "^7.1.1",
 		"chai-files": "^1.4.0",
 		"eslint": "^7.22.0",
-		"mocha": "^8.3.2",
+		"mocha": "^10.1.0",
 		"nyc": "^15.1.0"
 	},
 	"gitHead": "37b1a6b36334e7f2dbca293589fba40a596c9ac7"
